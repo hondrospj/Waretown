@@ -4272,8 +4272,7 @@ function computeSparseYearsFromEvents(eventsNavd){
   const cutoff = Math.max(1, median * 0.5);
 
   return years.filter(y => (byYear.get(y) || 0) < cutoff);
-}ars.filter(y => (byYear.get(y) || 0) < cutoff);
-}
+
 
 function renderAnnualSparseDataNote(){
   if(!annualSparseNote) return;
